@@ -53,9 +53,9 @@ Before starting, ensure you have access to:
 
 Read these documents before proceeding:
 
-- [ ] [01-business-model.md](./01-business-model.md) - Understand the business opportunity
-- [ ] [06-legal-compliance.md](./06-legal-compliance.md) - Understand regulatory constraints
-- [ ] [07-trading-mechanics.md](./07-trading-mechanics.md) - Understand the core product
+- [ ] [01-business-model.md](./00-initial-research/01-business-model.md) - Understand the business opportunity
+- [ ] [06-legal-compliance.md](./00-initial-research/06-legal-compliance.md) - Understand regulatory constraints
+- [ ] [07-trading-mechanics.md](./00-initial-research/07-trading-mechanics.md) - Understand the core product
 
 ---
 
@@ -77,7 +77,7 @@ These decisions will shape your entire project. Make them deliberately before wr
 
 **Recommendation:** Start with a crypto-friendly jurisdiction (Malta/Gibraltar) while blocking US users. Consider US expansion only after achieving scale.
 
-**Reference:** [06-legal-compliance.md - Jurisdiction Selection Strategy](./06-legal-compliance.md#jurisdiction-selection-strategy)
+**Reference:** [06-legal-compliance.md - Jurisdiction Selection Strategy](./00-initial-research/06-legal-compliance.md#jurisdiction-selection-strategy)
 
 ---
 
@@ -96,7 +96,7 @@ These decisions will shape your entire project. Make them deliberately before wr
 
 **Recommendation:** Start with 1-2 niches where you have domain expertise or unique advantages. Crypto events and finance are good starting points for Web3-native platforms.
 
-**Reference:** [01-business-model.md - Choosing Your Niche](./01-business-model.md#1-choosing-your-niche-industry)
+**Reference:** [01-business-model.md - Choosing Your Niche](./00-initial-research/01-business-model.md#1-choosing-your-niche-industry)
 
 ---
 
@@ -113,7 +113,7 @@ These decisions will shape your entire project. Make them deliberately before wr
 
 **Recommendation:** Start with the Polymarket model (winner-only fees) to minimize friction. Layer on premium features later.
 
-**Reference:** [01-business-model.md - Fee Structure Options](./01-business-model.md#2-fee-structure-options)
+**Reference:** [01-business-model.md - Fee Structure Options](./00-initial-research/01-business-model.md#2-fee-structure-options)
 
 ---
 
@@ -131,7 +131,7 @@ These decisions will shape your entire project. Make them deliberately before wr
 
 **Recommendation:** Use Polygon unless you have specific reasons not to. It's battle-tested, has the best tooling, and Polymarket has proven it works.
 
-**Reference:** [02-technical-architecture.md - Network Selection](./02-technical-architecture.md#21-network-selection-polygon-ethereum-l2)
+**Reference:** [02-technical-architecture.md - Network Selection](./00-initial-research/02-technical-architecture.md#21-network-selection-polygon-ethereum-l2)
 
 ---
 
@@ -151,7 +151,7 @@ These decisions will shape your entire project. Make them deliberately before wr
 | **Operations/Legal** | Compliance, operations | Month 2 |
 | **Community/Marketing** | Growth, content | Month 3 |
 
-**Reference:** [01-business-model.md - Implementation Roadmap](./01-business-model.md#implementation-roadmap)
+**Reference:** [01-business-model.md - Implementation Roadmap](./00-initial-research/01-business-model.md#implementation-roadmap)
 
 ---
 
@@ -553,9 +553,9 @@ After reading this guide:
 1. **Make key decisions** from the [Key Decisions](#key-decisions-to-make-early) section
 2. **Execute Week 1** of the [First 30 Days](#first-30-days-action-plan)
 3. **Deep-dive into relevant docs** based on your role:
-   - Founders: [01-business-model.md](./01-business-model.md)
-   - Engineers: [02-technical-architecture.md](./02-technical-architecture.md)
-   - Legal: [06-legal-compliance.md](./06-legal-compliance.md)
+   - Founders: [01-business-model.md](./00-initial-research/01-business-model.md)
+   - Engineers: [02-technical-architecture.md](./00-initial-research/02-technical-architecture.md)
+   - Legal: [06-legal-compliance.md](./00-initial-research/06-legal-compliance.md)
 
 4. **Review additional resources** in [RESOURCES.md](./RESOURCES.md)
 5. **Understand the terminology** via [GLOSSARY.md](./GLOSSARY.md)

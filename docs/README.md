@@ -45,18 +45,19 @@ This documentation provides everything needed to build a competitive prediction 
 
 | File | Description | Best For |
 |------|-------------|----------|
-| [01-business-model.md](./01-business-model.md) | Comprehensive business analysis of Polymarket, revenue models, user acquisition strategies, liquidity bootstrapping, partnership opportunities, and implementation roadmap | Founders, Business Strategists, Investors |
-| [02-technical-architecture.md](./02-technical-architecture.md) | Complete system architecture including blockchain layer, hybrid trading architecture, smart contracts overview, oracle systems, wallet architecture, settlement system, and scalability patterns | CTOs, Technical Leads, System Architects |
-| [03-smart-contracts.md](./03-smart-contracts.md) | Detailed smart contract architecture using Conditional Token Framework (CTF), token mechanics, proxy wallet system, security considerations, testing strategies, and deployment checklists | Blockchain Developers, Solidity Engineers |
-| [04-frontend-architecture.md](./04-frontend-architecture.md) | Frontend tech stack (Next.js, React, TypeScript), project structure, component architecture, Web3 integration patterns, state management, real-time data, responsive design, and performance optimization | Frontend Developers, UI/UX Engineers |
-| [05-backend-api.md](./05-backend-api.md) | Backend services architecture, REST API reference, WebSocket API, database schema, order book implementation, infrastructure setup, security, and error handling | Backend Developers, API Engineers |
-| [06-legal-compliance.md](./06-legal-compliance.md) | Regulatory landscape, jurisdiction selection, KYC/AML compliance, terms of service, market content policies, GDPR compliance, and risk mitigation strategies | Legal Teams, Compliance Officers, Founders |
-| [07-trading-mechanics.md](./07-trading-mechanics.md) | How prediction markets work, order types, order book implementation, position management, market lifecycle, liquidity mechanics, fee structures, and mathematical formulas | Product Managers, Trading Engineers, Quants |
+| [01-business-model.md](./00-initial-research/01-business-model.md) | Comprehensive business analysis of Polymarket, revenue models, user acquisition strategies, liquidity bootstrapping, partnership opportunities, and implementation roadmap | Founders, Business Strategists, Investors |
+| [02-technical-architecture.md](./00-initial-research/02-technical-architecture.md) | Complete system architecture including blockchain layer, hybrid trading architecture, smart contracts overview, oracle systems, wallet architecture, settlement system, and scalability patterns | CTOs, Technical Leads, System Architects |
+| [03-smart-contracts.md](./00-initial-research/03-smart-contracts.md) | Detailed smart contract architecture using Conditional Token Framework (CTF), token mechanics, proxy wallet system, security considerations, testing strategies, and deployment checklists | Blockchain Developers, Solidity Engineers |
+| [04-frontend-architecture.md](./00-initial-research/04-frontend-architecture.md) | Frontend tech stack (Next.js, React, TypeScript), project structure, component architecture, Web3 integration patterns, state management, real-time data, responsive design, and performance optimization | Frontend Developers, UI/UX Engineers |
+| [05-backend-api.md](./00-initial-research/05-backend-api.md) | Backend services architecture, REST API reference, WebSocket API, database schema, order book implementation, infrastructure setup, security, and error handling | Backend Developers, API Engineers |
+| [06-legal-compliance.md](./00-initial-research/06-legal-compliance.md) | Regulatory landscape, jurisdiction selection, KYC/AML compliance, terms of service, market content policies, GDPR compliance, and risk mitigation strategies | Legal Teams, Compliance Officers, Founders |
+| [07-trading-mechanics.md](./00-initial-research/07-trading-mechanics.md) | How prediction markets work, order types, order book implementation, position management, market lifecycle, liquidity mechanics, fee structures, and mathematical formulas | Product Managers, Trading Engineers, Quants |
 
-### Documentation Folders (Planned)
+### Documentation Folders
 
 | Folder | Purpose | Contents |
 |--------|---------|----------|
+| `/00-initial-research/` | Core platform documentation | Business model, technical architecture, smart contracts, APIs, legal compliance, trading mechanics |
 | `/product-design/` | Product specifications and design systems | User flows, wireframes, design tokens, accessibility guidelines |
 | `/development-engineering/` | Technical implementation guides | Setup guides, coding standards, CI/CD, testing strategies |
 | `/blockchain-web3/` | Blockchain-specific documentation | Network guides, gas optimization, contract deployment, Web3 patterns |
@@ -74,10 +75,10 @@ This documentation provides everything needed to build a competitive prediction 
 
 Understanding the business opportunity and building a successful company:
 
-1. **[01-business-model.md](./01-business-model.md)** - Start here to understand the market opportunity, Polymarket's success factors, and strategic options
-2. **[06-legal-compliance.md](./06-legal-compliance.md)** - Critical regulatory considerations that will shape your business decisions
-3. **[07-trading-mechanics.md](./07-trading-mechanics.md)** - Understand the core product mechanics
-4. **[02-technical-architecture.md](./02-technical-architecture.md)** - High-level technical understanding for hiring and planning
+1. **[01-business-model.md](./00-initial-research/01-business-model.md)** - Start here to understand the market opportunity, Polymarket's success factors, and strategic options
+2. **[06-legal-compliance.md](./00-initial-research/06-legal-compliance.md)** - Critical regulatory considerations that will shape your business decisions
+3. **[07-trading-mechanics.md](./00-initial-research/07-trading-mechanics.md)** - Understand the core product mechanics
+4. **[02-technical-architecture.md](./00-initial-research/02-technical-architecture.md)** - High-level technical understanding for hiring and planning
 
 **Key Sections to Focus On:**
 - Business Model Analysis (revenue, fees, value proposition)
@@ -93,11 +94,11 @@ Understanding the business opportunity and building a successful company:
 
 Building the platform from scratch:
 
-1. **[02-technical-architecture.md](./02-technical-architecture.md)** - Start with the complete system architecture and design principles
-2. **[03-smart-contracts.md](./03-smart-contracts.md)** - Deep dive into blockchain layer and Conditional Token Framework
-3. **[05-backend-api.md](./05-backend-api.md)** - Backend services, APIs, and data layer
-4. **[04-frontend-architecture.md](./04-frontend-architecture.md)** - Frontend implementation with Web3 integration
-5. **[07-trading-mechanics.md](./07-trading-mechanics.md)** - Trading engine and order book implementation
+1. **[02-technical-architecture.md](./00-initial-research/02-technical-architecture.md)** - Start with the complete system architecture and design principles
+2. **[03-smart-contracts.md](./00-initial-research/03-smart-contracts.md)** - Deep dive into blockchain layer and Conditional Token Framework
+3. **[05-backend-api.md](./00-initial-research/05-backend-api.md)** - Backend services, APIs, and data layer
+4. **[04-frontend-architecture.md](./00-initial-research/04-frontend-architecture.md)** - Frontend implementation with Web3 integration
+5. **[07-trading-mechanics.md](./00-initial-research/07-trading-mechanics.md)** - Trading engine and order book implementation
 
 **Key Sections to Focus On:**
 - Hybrid Trading Architecture (off-chain matching, on-chain settlement)
@@ -113,10 +114,10 @@ Building the platform from scratch:
 
 Understanding user needs and product requirements:
 
-1. **[07-trading-mechanics.md](./07-trading-mechanics.md)** - Start with how prediction markets work and user interactions
-2. **[01-business-model.md](./01-business-model.md)** - Understand the market landscape and competitive positioning
-3. **[04-frontend-architecture.md](./04-frontend-architecture.md)** - User interface components and user flows
-4. **[06-legal-compliance.md](./06-legal-compliance.md)** - Constraints that affect product decisions
+1. **[07-trading-mechanics.md](./00-initial-research/07-trading-mechanics.md)** - Start with how prediction markets work and user interactions
+2. **[01-business-model.md](./00-initial-research/01-business-model.md)** - Understand the market landscape and competitive positioning
+3. **[04-frontend-architecture.md](./00-initial-research/04-frontend-architecture.md)** - User interface components and user flows
+4. **[06-legal-compliance.md](./00-initial-research/06-legal-compliance.md)** - Constraints that affect product decisions
 
 **Key Sections to Focus On:**
 - Market Categories and User Segments
@@ -131,9 +132,9 @@ Understanding user needs and product requirements:
 
 Understanding the market and growth strategies:
 
-1. **[01-business-model.md](./01-business-model.md)** - User acquisition strategies and growth tactics
-2. **[07-trading-mechanics.md](./07-trading-mechanics.md)** - Understand the product you're marketing
-3. **[06-legal-compliance.md](./06-legal-compliance.md)** - Marketing constraints and geo-restrictions
+1. **[01-business-model.md](./00-initial-research/01-business-model.md)** - User acquisition strategies and growth tactics
+2. **[07-trading-mechanics.md](./00-initial-research/07-trading-mechanics.md)** - Understand the product you're marketing
+3. **[06-legal-compliance.md](./00-initial-research/06-legal-compliance.md)** - Marketing constraints and geo-restrictions
 
 **Key Sections to Focus On:**
 - Market Categories (what drives user engagement)
@@ -148,9 +149,9 @@ Understanding the market and growth strategies:
 
 Navigating the regulatory landscape:
 
-1. **[06-legal-compliance.md](./06-legal-compliance.md)** - Comprehensive regulatory guide (start here)
-2. **[01-business-model.md](./01-business-model.md)** - Business context for compliance decisions
-3. **[07-trading-mechanics.md](./07-trading-mechanics.md)** - Product mechanics with regulatory implications
+1. **[06-legal-compliance.md](./00-initial-research/06-legal-compliance.md)** - Comprehensive regulatory guide (start here)
+2. **[01-business-model.md](./00-initial-research/01-business-model.md)** - Business context for compliance decisions
+3. **[07-trading-mechanics.md](./00-initial-research/07-trading-mechanics.md)** - Product mechanics with regulatory implications
 
 **Key Sections to Focus On:**
 - Polymarket's Regulatory History (CFTC, FBI investigations)
@@ -169,35 +170,35 @@ Navigating the regulatory landscape:
 
 | Priority | Document | Why It's Critical |
 |----------|----------|-------------------|
-| 1 | [01-business-model.md](./01-business-model.md) | Foundation for all strategic decisions |
-| 2 | [06-legal-compliance.md](./06-legal-compliance.md) | Can make or break your business |
-| 3 | [02-technical-architecture.md](./02-technical-architecture.md) | Blueprint for the entire system |
-| 4 | [03-smart-contracts.md](./03-smart-contracts.md) | Core blockchain infrastructure |
-| 5 | [07-trading-mechanics.md](./07-trading-mechanics.md) | Essential product knowledge |
+| 1 | [01-business-model.md](./00-initial-research/01-business-model.md) | Foundation for all strategic decisions |
+| 2 | [06-legal-compliance.md](./00-initial-research/06-legal-compliance.md) | Can make or break your business |
+| 3 | [02-technical-architecture.md](./00-initial-research/02-technical-architecture.md) | Blueprint for the entire system |
+| 4 | [03-smart-contracts.md](./00-initial-research/03-smart-contracts.md) | Core blockchain infrastructure |
+| 5 | [07-trading-mechanics.md](./00-initial-research/07-trading-mechanics.md) | Essential product knowledge |
 
 ### Key Concepts to Understand
 
 | Concept | Document | Description |
 |---------|----------|-------------|
-| Binary Markets | [07-trading-mechanics.md](./07-trading-mechanics.md) | Yes/No shares, price = probability |
-| Conditional Token Framework | [03-smart-contracts.md](./03-smart-contracts.md) | Gnosis protocol for tokenized outcomes |
-| Hybrid Architecture | [02-technical-architecture.md](./02-technical-architecture.md) | Off-chain matching, on-chain settlement |
-| CLOB (Order Book) | [05-backend-api.md](./05-backend-api.md) | Central Limit Order Book engine |
-| UMA Oracle | [02-technical-architecture.md](./02-technical-architecture.md) | Decentralized outcome resolution |
-| CFTC Regulations | [06-legal-compliance.md](./06-legal-compliance.md) | US regulatory framework |
-| Liquidity Mining | [01-business-model.md](./01-business-model.md) | Token-based liquidity incentives |
+| Binary Markets | [07-trading-mechanics.md](./00-initial-research/07-trading-mechanics.md) | Yes/No shares, price = probability |
+| Conditional Token Framework | [03-smart-contracts.md](./00-initial-research/03-smart-contracts.md) | Gnosis protocol for tokenized outcomes |
+| Hybrid Architecture | [02-technical-architecture.md](./00-initial-research/02-technical-architecture.md) | Off-chain matching, on-chain settlement |
+| CLOB (Order Book) | [05-backend-api.md](./00-initial-research/05-backend-api.md) | Central Limit Order Book engine |
+| UMA Oracle | [02-technical-architecture.md](./00-initial-research/02-technical-architecture.md) | Decentralized outcome resolution |
+| CFTC Regulations | [06-legal-compliance.md](./00-initial-research/06-legal-compliance.md) | US regulatory framework |
+| Liquidity Mining | [01-business-model.md](./00-initial-research/01-business-model.md) | Token-based liquidity incentives |
 
 ### Technology Stack Summary
 
 | Layer | Technology | Document |
 |-------|------------|----------|
-| Blockchain | Polygon (L2) | [02-technical-architecture.md](./02-technical-architecture.md) |
-| Smart Contracts | Solidity, CTF, ERC-1155 | [03-smart-contracts.md](./03-smart-contracts.md) |
-| Backend | Node.js, PostgreSQL, Redis | [05-backend-api.md](./05-backend-api.md) |
-| Frontend | Next.js, React, TypeScript | [04-frontend-architecture.md](./04-frontend-architecture.md) |
-| Web3 | wagmi, viem, RainbowKit | [04-frontend-architecture.md](./04-frontend-architecture.md) |
-| Oracle | UMA Protocol | [02-technical-architecture.md](./02-technical-architecture.md) |
-| Collateral | USDC (Stablecoin) | [03-smart-contracts.md](./03-smart-contracts.md) |
+| Blockchain | Polygon (L2) | [02-technical-architecture.md](./00-initial-research/02-technical-architecture.md) |
+| Smart Contracts | Solidity, CTF, ERC-1155 | [03-smart-contracts.md](./00-initial-research/03-smart-contracts.md) |
+| Backend | Node.js, PostgreSQL, Redis | [05-backend-api.md](./00-initial-research/05-backend-api.md) |
+| Frontend | Next.js, React, TypeScript | [04-frontend-architecture.md](./00-initial-research/04-frontend-architecture.md) |
+| Web3 | wagmi, viem, RainbowKit | [04-frontend-architecture.md](./00-initial-research/04-frontend-architecture.md) |
+| Oracle | UMA Protocol | [02-technical-architecture.md](./00-initial-research/02-technical-architecture.md) |
+| Collateral | USDC (Stablecoin) | [03-smart-contracts.md](./00-initial-research/03-smart-contracts.md) |
 
 ---
 
